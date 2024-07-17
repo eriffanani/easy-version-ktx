@@ -37,7 +37,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(project(":easy-version-ktx"))
+    //implementation(project(":easy-version-ktx"))
+    implementation("com.github.eriffanani:easy-version:1.0.1")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
