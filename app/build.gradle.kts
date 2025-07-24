@@ -4,12 +4,11 @@ plugins {
 
 android {
     namespace = "com.erif.easyversionktx"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.erif.easyversionktx"
         minSdk = 21
-        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
